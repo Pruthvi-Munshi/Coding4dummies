@@ -1,0 +1,55 @@
+What is Object-oriented Programing?
+    - programming paradigm that revolves around the concept of "objects"
+    - the goal is to create an organized structure in our code that mirrors the real world
+
+Key concepts
+    - Objects: an instance of a class; represent real world entities
+    - Classes: blueprint or template that defines the structure and behaviour of objects
+    - Methods/Functions: defined within a class to perform operations on the objects data
+    - Constructors: Method that is called when a class is created; is used to initialize an object state
+    - Inheritance: mechanism in which one class and inherit methods and properties from another class
+    - Encapsulation: the concept of bundling data and methods within a class and controlling access to that
+                     data though public and private access modifiers
+    - Polymorphism: The ability to present the same interface for different data types and classes
+    - Abstraction: the concept of hiding complex reality while exposing only the essential parts.
+                   Simplifies complex systems by breaking them into smaller, more manageable parts
+
+What are the fundamental principles of OOP?
+    - FOUR FUNDAMENTALS: ENCAPSULATION, POLYMORPHISM, INHERITANCE, ABSTRACTION
+
+OOP languages include python, java, javascript, php, typescript, and much more
+
+
+
+
+Access Modifiers
+
+In Java, access modifiers are keywords used to define the visibility or accessibility of classes, methods, variables,
+and constructors within a program.
+
+There are four different types of modifiers:
+
+
+Public - Members declared as public are accessible from any class. They have the widest scope and can be
+             accessed from any class or package.
+Protected - Members declared as protected are accessible within the same package and by subclasses
+             outside the package.
+Private - Members declared as private are accessible only within the same class. They are not visible to any
+        other class, even subclasses.
+Default - if you do not specify an access modifier, it defaults to package-private. Members with default access
+        are accessible only within the same package.
+
+
+What does static mean?
+
+    static is a keyword in Java used to create variables and methods that belong to the class itself,
+    rather than to instances of the class
+
+
+What is void?
+
+    void is a keyword used in Java to declare that a method does not return any value. When a method has a return type
+    of void, it means the method performs a task but does not produce a result that can be used in expressions.
+    void methods are often used for actions or operations that do not need to return a value.
+
+Message Code Camp :D
