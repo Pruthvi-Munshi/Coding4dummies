@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Coding4dummies.iml" filepath="$PROJECT_DIR$/.idea/Coding4dummies.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IntroToJava/IntroToJava.iml" filepath="$PROJECT_DIR$/IntroToJava/IntroToJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TicTacToeChallenge/TicTacToeChallenge.iml" filepath="$PROJECT_DIR$/TicTacToeChallenge/TicTacToeChallenge.iml" />
+    </modules>
+  </component>
+</project>

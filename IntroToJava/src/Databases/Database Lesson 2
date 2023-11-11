@@ -1,0 +1,27 @@
+Optionality
+
+Cardinally constraints with optionality
+
+--|---- == one
+-->---- == many
+
+optional
+
+--|-o-- == optional one
+--o-<-- == optional many
+
+mandatory
+
+--||--- == mandatory one
+--|-<-- == mandatory many
+
+Loops
+- it is fine for a loop to occur if and only if it does not cause redundancy
+- if you break the loop you lose information
+
+Tertiary relationships
+
+Enhanced Entity Relationship Diagram (EER Diagram)
+Has a super type and sub typed entity
+- Super typed entity: a generic entity type that has relationships with one or more subtypes
+- Sub typed entity: a sub grouping of entities in an entity type that has attributes distinct from other sub groupings
