@@ -1,0 +1,43 @@
+SQL Commands:
+
+show databases; --> shows database
+use database_name; --> uses database
+shows tables; --> shows table
+
+select * from + table_name; --> * is attribute in table
+
+create database:
+create database PetStore;
+
+create table Pet(
+    petID int notnull,
+    name varChar(20),
+    price numeric (7, 2), --> represents _____.__ (five digit number with two decimal points) (4, 1 == ___._)
+    primary key (petID)
+    ) Engine = InnoDB; --> default data structure for a database
+
+    q1) what is the names and monthly salaries of all the instructors
+        looking for name
+
+    q2) what are the names of all the instructors whose salary is greater than 80k
+        need names from instructor where salary > 80000
+
+    q3) what are the names of all the cs instructors with a salary greater than 80k
+        looking for name from cs department with salary > 80k
+
+    q4) what are the names of the instructors along with the course id of the courses they taught
+        look for name of instructor
+
+    q5) what are the names of the instructors whose name starts with an 's'
+        select name from instructor where name like 's%' --> 's%' means starts with s, '%s%' means
+        it contains an s, '%s' means it ends with s. '' can be multiple numbers/letters.
+
+        can also do like '___' meaning it will search for a length of three, and like '___%' means
+        it will search for something with at least a length of three.
+
+    q6) what are the course ids of the courses offered in the fall of 2009 or spring of 2010
+        course id
+
+    q7) what are the course ids offered in fall 2009 but not in spring 2010
+        hint: "not in" is an sql phrase
+        
